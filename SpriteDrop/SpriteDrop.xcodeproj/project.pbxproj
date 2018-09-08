@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A82DF427C8D41B0E3BCAA91E /* Pods_SpriteDrop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B118E3344FD6238778B40BB /* Pods_SpriteDrop.framework */; };
+		EBA60EAC213EB73B000E366D /* LeafView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA60EAB213EB73B000E366D /* LeafView.swift */; };
+		EBF6FDA0213D699E00563BBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF6FD9F213D699E00563BBA /* AppDelegate.swift */; };
+		EBF6FDA2213D699E00563BBA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EBF6FDA1213D699E00563BBA /* GameScene.sks */; };
+		EBF6FDA4213D699E00563BBA /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = EBF6FDA3213D699E00563BBA /* Actions.sks */; };
+		EBF6FDA6213D699E00563BBA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF6FDA5213D699E00563BBA /* GameScene.swift */; };
+		EBF6FDA8213D699E00563BBA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF6FDA7213D699E00563BBA /* GameViewController.swift */; };
+		EBF6FDAB213D699E00563BBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF6FDA9213D699E00563BBA /* Main.storyboard */; };
+		EBF6FDB0213D699F00563BBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF6FDAE213D699F00563BBA /* LaunchScreen.storyboard */; };
+		EBF6FDB8213D6C4E00563BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF6FDB7213D6C4E00563BBA /* Assets.xcassets */; };
+		EBF6FDBA213D6C6B00563BBA /* SquareDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF6FDB9213D6C6B00563BBA /* SquareDrop.swift */; };
+		EBF6FDBC213D734400563BBA /* Floor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF6FDBB213D734400563BBA /* Floor.swift */; };
+		EBF6FDC6213EB2D000563BBA /* GothamRnd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EBF6FDC5213EB2D000563BBA /* GothamRnd-Bold.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		144619D42735904D625E604D /* Pods-SpriteDrop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpriteDrop.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpriteDrop/Pods-SpriteDrop.release.xcconfig"; sourceTree = "<group>"; };
+		1B118E3344FD6238778B40BB /* Pods_SpriteDrop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpriteDrop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		699AB920F87ED27562B1C8F7 /* Pods-SpriteDrop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpriteDrop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpriteDrop/Pods-SpriteDrop.debug.xcconfig"; sourceTree = "<group>"; };
+		EBA60EAB213EB73B000E366D /* LeafView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeafView.swift; sourceTree = "<group>"; };
+		EBF6FD9C213D699D00563BBA /* SpriteDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF6FD9F213D699E00563BBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBF6FDA1213D699E00563BBA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		EBF6FDA3213D699E00563BBA /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		EBF6FDA5213D699E00563BBA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		EBF6FDA7213D699E00563BBA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EBF6FDAA213D699E00563BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBF6FDAF213D699F00563BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBF6FDB1213D699F00563BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF6FDB7213D6C4E00563BBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBF6FDB9213D6C6B00563BBA /* SquareDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareDrop.swift; sourceTree = "<group>"; };
+		EBF6FDBB213D734400563BBA /* Floor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floor.swift; sourceTree = "<group>"; };
+		EBF6FDC5213EB2D000563BBA /* GothamRnd-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRnd-Bold.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBF6FD99213D699D00563BBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82DF427C8D41B0E3BCAA91E /* Pods_SpriteDrop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36B5F2350519461869B6424C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				699AB920F87ED27562B1C8F7 /* Pods-SpriteDrop.debug.xcconfig */,
+				144619D42735904D625E604D /* Pods-SpriteDrop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B6422DDABA87770A7E90301A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B118E3344FD6238778B40BB /* Pods_SpriteDrop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBF6FD93213D699D00563BBA = {
+			isa = PBXGroup;
+			children = (
+				EBF6FD9E213D699D00563BBA /* SpriteDrop */,
+				EBF6FD9D213D699D00563BBA /* Products */,
+				36B5F2350519461869B6424C /* Pods */,
+				B6422DDABA87770A7E90301A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EBF6FD9D213D699D00563BBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBF6FD9C213D699D00563BBA /* SpriteDrop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBF6FD9E213D699D00563BBA /* SpriteDrop */ = {
+			isa = PBXGroup;
+			children = (
+				EBF6FDC0213EB14F00563BBA /* Resources */,
+				EBF6FD9F213D699E00563BBA /* AppDelegate.swift */,
+				EBF6FDA1213D699E00563BBA /* GameScene.sks */,
+				EBF6FDA3213D699E00563BBA /* Actions.sks */,
+				EBF6FDA5213D699E00563BBA /* GameScene.swift */,
+				EBF6FDBB213D734400563BBA /* Floor.swift */,
+				EBF6FDB9213D6C6B00563BBA /* SquareDrop.swift */,
+				EBA60EAB213EB73B000E366D /* LeafView.swift */,
+				EBF6FDA7213D699E00563BBA /* GameViewController.swift */,
+				EBF6FDA9213D699E00563BBA /* Main.storyboard */,
+				EBF6FDB7213D6C4E00563BBA /* Assets.xcassets */,
+				EBF6FDAE213D699F00563BBA /* LaunchScreen.storyboard */,
+				EBF6FDB1213D699F00563BBA /* Info.plist */,
+			);
+			path = SpriteDrop;
+			sourceTree = "<group>";
+		};
+		EBF6FDC0213EB14F00563BBA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EBF6FDC5213EB2D000563BBA /* GothamRnd-Bold.otf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBF6FD9B213D699D00563BBA /* SpriteDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF6FDB4213D699F00563BBA /* Build configuration list for PBXNativeTarget "SpriteDrop" */;
+			buildPhases = (
+				B34A08715FE6A9714A8C131F /* [CP] Check Pods Manifest.lock */,
+				EBF6FD98213D699D00563BBA /* Sources */,
+				EBF6FD99213D699D00563BBA /* Frameworks */,
+				EBF6FD9A213D699D00563BBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpriteDrop;
+			productName = SpriteDrop;
+			productReference = EBF6FD9C213D699D00563BBA /* SpriteDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBF6FD94213D699D00563BBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Edoardo Francesco Amedeo";
+				TargetAttributes = {
+					EBF6FD9B213D699D00563BBA = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = EBF6FD97213D699D00563BBA /* Build configuration list for PBXProject "SpriteDrop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBF6FD93213D699D00563BBA;
+			productRefGroup = EBF6FD9D213D699D00563BBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBF6FD9B213D699D00563BBA /* SpriteDrop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBF6FD9A213D699D00563BBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF6FDAB213D699E00563BBA /* Main.storyboard in Resources */,
+				EBF6FDC6213EB2D000563BBA /* GothamRnd-Bold.otf in Resources */,
+				EBF6FDA2213D699E00563BBA /* GameScene.sks in Resources */,
+				EBF6FDB0213D699F00563BBA /* LaunchScreen.storyboard in Resources */,
+				EBF6FDA4213D699E00563BBA /* Actions.sks in Resources */,
+				EBF6FDB8213D6C4E00563BBA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B34A08715FE6A9714A8C131F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpriteDrop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBF6FD98213D699D00563BBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF6FDBA213D6C6B00563BBA /* SquareDrop.swift in Sources */,
+				EBF6FDA6213D699E00563BBA /* GameScene.swift in Sources */,
+				EBA60EAC213EB73B000E366D /* LeafView.swift in Sources */,
+				EBF6FDBC213D734400563BBA /* Floor.swift in Sources */,
+				EBF6FDA8213D699E00563BBA /* GameViewController.swift in Sources */,
+				EBF6FDA0213D699E00563BBA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBF6FDA9213D699E00563BBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF6FDAA213D699E00563BBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBF6FDAE213D699F00563BBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF6FDAF213D699F00563BBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBF6FDB2213D699F00563BBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBF6FDB3213D699F00563BBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBF6FDB5213D699F00563BBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 699AB920F87ED27562B1C8F7 /* Pods-SpriteDrop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G99G8858YN;
+				INFOPLIST_FILE = SpriteDrop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edoardodecal.SpriteDrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBF6FDB6213D699F00563BBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 144619D42735904D625E604D /* Pods-SpriteDrop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G99G8858YN;
+				INFOPLIST_FILE = SpriteDrop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edoardodecal.SpriteDrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBF6FD97213D699D00563BBA /* Build configuration list for PBXProject "SpriteDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF6FDB2213D699F00563BBA /* Debug */,
+				EBF6FDB3213D699F00563BBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF6FDB4213D699F00563BBA /* Build configuration list for PBXNativeTarget "SpriteDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF6FDB5213D699F00563BBA /* Debug */,
+				EBF6FDB6213D699F00563BBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBF6FD94213D699D00563BBA /* Project object */;
+}
